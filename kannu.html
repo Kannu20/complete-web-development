@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kannu</title>
+</head>
+
+<body>
+ 
+    <!-- H1--h6 use for different size -->
+    <h1>HTML TUTORIAL</h1>
+    <img src="HTML5_logo_and_wordmark.svg.png" alt="text image" width="200" height="200">
+    <hr>
+    <!-- lorem use for gives paragraph-->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quos commodi autem rerum <strong>this is
+            strong</strong>libero tempora vitae officiis. Nisi dicta praesentium <br>voluptatibus cupiditate nihil est
+        repellat, ducimus atque, doloremque, commodi quibusdam! </p>
+    <hr>
+    <h3>This is the link of site</h3>
+    <hr>
+    <a href="https://google.com" target="-blank"><strong>go to google</strong></a> <br>
+    <a href="https://twitter.com" target="-blank"><i>go to twitter</i></a> <br>
+    <a href="https://facebook.com" target="-blank">go to facebook</a> <br>
+    <a href="https://instagram.com" target="-blank">go to instagram</a> <br>
+    <hr>
+    <h2>list</h2>
+    <hr>
+    <ul type="square">
+        <li>this is first item of unordered list</li>
+        <li>this is second item of unordered list</li>
+        <ul>
+            <li>another one</li>
+            <li>another two</li>
+            <li>another three</li>
+
+        </ul>
+        <li>this is third item of unordered list</li>
+    </ul>
+
+    <ol type="a">
+        <li>this is first item of ordered list</li>
+        <li>this is second item of ordered list</li>
+        <li>this is third item of ordered list</li>
+    </ol>
+    <hr>
+    <h3>Table</h3>
+    <hr>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>employee id</th>
+            <th>employee role</th>
+            <th>salary</th>
+        </thead>
+        <tr>
+            <td>kannu</td>
+            <td>1235</td>
+            <td>full stack developer</td>
+            <td>100000</td>
+        </tr>
+        <tr>
+            <td>kanishak</td>
+            <td>1236</td>
+            <td>front end developer</td>
+            <td>120000</td>
+        </tr>
+        <tr>
+            <td>kanu</td>
+            <td>1234</td>
+            <td>Andriod developer</td>
+            <td>1300000</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>FORM</h3><hr>
+    <form action="backen.php">
+        <Label for="name">Name</Label>
+        <div>
+            <input type="text" name="myame" id="name">
+        </div>
+        <br>
+        <Label for="rollno.">rollno.</Label>
+        <div>
+            <input type="number" name="myrollno." id="rollno.">
+        </div>
+        <br>
+        <Label for="email">Email</Label>
+        <div>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <Label for="dob">DOB</Label>
+        <input type="date" name="mydate" id="dob">
+        </div>
+        <br>
+        <Label for="eligibility">Are you eligible</Label>
+        <div>
+            Yes <input type="radio" name="myeligibility" id="eligibility"> No <input type="radio" name="myeligibility"
+                id="eligibility">
+        </div>
+        <br>wwww
+        <Label for="gender">Gender</Label>
+        <div>
+            male<input type="radio" name="mygender" id="gender"> female<input type="radio" name="mygender" id="gender">
+            other<input type="radio" name="mygender" id="gender">
+        </div>
+        <br>
+        <Label for="age">Are you 18+</Label>
+        <div>
+            yes <input type="radio" name="myage" id="age"> No <input type="radio" name="myage" id="age">
+        </div>
+        <br>
+        <div>
+            write about yourself:<br><textarea name="mytext" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="state">STATE</label>
+        <div>
+            <select name="mystate" id="state">
+                <option value="raj">Rajasthan</option>
+                <option value="up">Uttarpradesh</option>
+                <option value="j&k">Jammu and Kashmir</option>
+                <option value="goa">Goa</option>
+                <option value="guj">Gujrat</option>
+                <option value="pun">Punjab</option>
+                <option value="del">Delhi</option>
+                <option value="uk">Uttrakhand</option>
+                <option value="mp">MadhyaPradesh</option>
+                <option value="oddisha">Oddisha</option>
+            </select>
+        </div><br>
+    </form>
+    <div>
+        <input type="submit" name="submitnow">
+    </div><br>
+    <div>
+        <input type="reset" name="resetnow">
+    </div><hr>
+    <h3>Inline & block elements</h3><hr>
+    <strong style="border : 2px solid red;">this is paragraph</strong> <a style="border : 2px solid red;">this is alsp a paragraph</a>
+    <span style="border : 2px solid blue;">this is span</span> <span style="border : 2px solid green;"> this is also a span</span>
+    <div style="border : 2px solid black;">this is paragraph</div> <li style="border : 2px solid red;">this is alsp a paragraph</li>
+    <em style="border : 2px solid blue;">this is span</em> <img style="border : 2px solid green;"> this is also a span</img><hr>
+    <h3>Id's And Classes</h3><hr>
+    <div id="mainbox" class="bluebg blackborder">
+     this is mainbox</div>
+     <span class="redbg"></span>
+     <!-- select and press ctrl + / to comment-->
+     
+     <!-- Emmet -->
+     <!-- . is for class and # is for id-->
+    <span class="redbg"></span>
+    <span id="spanmain"></span>
+    <div class="bluebg redborder differentclass"></div>
+    
+    <!-- Emmet takes div tag as default -->
+    <div class="blckbackground"></div>
+     
+    <!-- creating maultiple elements using Emmet-->
+    <!-- span.myclass.myclass2.myclass3 + <Tab> to print 4 similar elements-->
+        <span class="myclass myclass2 myclass3">first</span><br>
+        <span class="myclass myclass2 myclass3">second</span><br>
+        <span class="myclass myclass2 myclass3">third</span><br>
+        <span class="myclass myclass2 myclass3">fourth</span><br>
+        <div class="container"><hr>
+            <h3>html entities</h3><hr>
+            <p>this is another &nbsp; &nbsp; pragraph with two spaces </p>
+            <p>pragraph is written like this&lt;p&gt; </p>
+            <p>Pound is written like this &pound;</p>
+            <p>Empty character is written like this &#8203;</p>
+            <p>copyright is written like this &copy;</p>
+            <p> another character is  &rAarr; </p>
+            <p> another character is  &frac14;; </p>
+            <hr>
+        </div>
+        <h3>Semantic Elements</h3><hr>
+        <div class="divSemanticElements">
+        <details>
+            <summary>my name is kanishak todwal, i belong to newai</summary>
+            currently i am pursuing betch degree from poornima college of engineering
+        </details>
+        <article>
+            <aside>my name is kanishak todwal, i belong to newai</aside>
+            currently i am pursuing betch degree from poornima college of engineering
+        </article><hr>
+        </div>
+        <h1>THIS IS ALL ABOUT HTML</h1>
+
+                 <H1>-------------------------------------------------------THANK YOU--------------------------------------------------------------</H1>
+</body>
+
+</html>

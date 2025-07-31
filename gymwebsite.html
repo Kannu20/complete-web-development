@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanishak fitness</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* css reset */
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url('ks.jpg');
+      background-repeat: no-repeat;
+     
+    }
+
+    .left {
+      position: absolute;
+      left: 13px;
+      top: 17px;
+      display: inline-block;
+      /* border: 2px solid red; */
+    }
+
+    .left img {
+      width: 54px;
+      filter: invert(100%);
+    }
+
+    .left div {
+      line-height: 14px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .mid {
+      display: block;
+      width: 36%;
+      margin: 20px auto;
+      /* border: 2px solid gray; */
+
+    }
+
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 33px;
+      display: inline-block;
+      /* border: 2px solid grey; */
+    }
+
+    .navbar {
+      display: inline-block;
+    }
+
+    .navbar li {
+      display: inline-block;
+      font-size: 18px;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: blue;
+    }
+
+    .btn {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin: 0px 9px;
+      background-color: black;
+      color: white;
+      padding: 4px 14px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+
+    }
+    .conatiner{
+      border:2px solid white;
+      margin:2px 222px;
+      padding:222px 222px;
+      width:354px;
+      border-radius:4px;
+    }
+    .font-group input{
+       text-align: center;
+       display: block;
+       width: 504px;
+       padding: 1px;
+       border: 2px solid black;
+       margin: 13px auto;
+       font-size: 25px;
+       margin-left: 222px;
+       border-radius: 8px;
+    }
+    .container h1{
+      text-align: center;
+      /* border:2px solid grey; */
+      margin:33px 233px;
+      padding:22px 22px;
+      width:444px;
+      border-radius:4px;
+    }
+    .container button{
+      
+      display: block;
+      width: 506px;
+      margin: 24px auto;
+      margin-left: 222px;
+
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <!--left box for logo -->
+      <div class="left">
+        <img src="km.png" alt="">
+        <div>Kanishak Fitness</div>
+
+      </div>
+      <!--mid box for logo -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness calculator</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+    </header>
+    <!--right box for logo -->
+    <div class="right">
+      <button class="btn">call us</button>
+      <button class="btn">Email us</button>
+    </div>
+    </header>
+    <div class="container">
+      
+      <h1>join the best gym of the jaipur</h1>
+      <form action="noaction.php"></form>
+      <div class="font-group">
+        <input type="text" name="" placeholder="Enter your Name">
+      </div>
+      <div class="font-group">
+        <input type="text" name="" placeholder="Enter your Age">
+      </div>
+      <div class="font-group">
+        <input type="text" name="" placeholder="Enter your Gender">
+      </div>
+      <div class="font-group">
+        <input type="text" name="" placeholder="Enter your Locality">
+        
+      </div>
+      <div class="font-group">
+        <input type="text" name="" placeholder="Enter your Contact no.">
+        
+      </div>
+      <div class="font-group">
+        <input type="text" name="" placeholder="Enter your email id">
+        
+      </div>
+      <button class="btn">Sumbit</button>
+    </form>
+    
+    </div>
+    <marquee behavior="right" direction="left"><H1>STAY FIT STAY HEALTHY WITH US</H1> </marquee>
+
+  </body>
+
+</html>
