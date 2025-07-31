@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShcooWDH5tcjdbQ8Dd3yIkuVj2TeBh-V1pEQ&s');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(21, 20, 19, 0.8); /* Dark brown with transparency */
+    padding: 15px 30px;
+    color: #ffffff;
+}
+
+.logo a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #8d6e63; /* Lighter brown */
+    border-radius: 5px;
+}
+
+.search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search input::placeholder {
+    color: #ffffff;
+}
+
+</style>
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/">HIDEOUT</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+    </nav>
+
+</body>
+</html>
